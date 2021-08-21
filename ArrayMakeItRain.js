@@ -7,8 +7,8 @@ var yPositions = [0, 50, 144, 70, 82, 41, 143];
 
 
 for (var count= 0; count < 20; count++){
-    xPositions.push(random(0, 400));
-    yPositions.push(random(0, 400));
+    xPositions.push(random(0, 400)); // creating an array name xPositions and pushing 0-400 random numbers
+    yPositions.push(random(0, 400)); //// creating an array name yPositions and pushing 0-400 random numbers
 }
     
 
@@ -22,15 +22,15 @@ draw = function() {
         
         fill(colour);
         ellipse(xPositions[i], yPositions[i], 10, 10);
-        yPositions[i] += 5;
+        yPositions[i] += 5; // conrolling the speed of raindrop fall, use 10, 20
         
-        if(yPositions[i] > 400){
+        if(yPositions[i] > 400){  // reset the y position bcz scope of screen in 400
             yPositions[i] = 0;
         }
     }
     
     if(mouseIsPressed){
-        xPositions.push(random(0, 400));
+        xPositions.push(random(0, 400)); // if mouse is pressed, increse the random values / rain drops
         yPositions.push(random(0, 400));
     }
 };
