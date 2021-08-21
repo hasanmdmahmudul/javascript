@@ -14,6 +14,7 @@ for (var count= 0; count < 20; count++){
 
 var colour= color(random(0,255),random(0,255),random(0,255));
 draw = function() {
+    //house design
     background(219, 255, 255);
 
 fill(174, 180, 214);
@@ -24,6 +25,8 @@ rect(60, 150, 280, 207);
 
 fill(120, 80, 19);
 rect(180, 280, 40, 77);
+    //house design end
+    //rain design starts
 
 
     for (var i = 0; i < xPositions.length; i++) {
