@@ -11,6 +11,8 @@ for (var count= 0; count < 20; count++){
     yPositions.push(random(0, 400)); //// creating an array name yPositions and pushing 0-400 random numbers
 }
     
+
+
 var bigRainbow = {
     x: 200,
     y: 200,
@@ -32,18 +34,14 @@ var drawRainbow = function(rainbow) {
     arc(rainbow.x, rainbow.y, rainbow.radius-40, rainbow.radius-40, 180, 360);
 };
 
-drawRainbow(bigRainbow);
 
 
 
-//rain + house
 var colour= color(random(0,255),random(0,255),random(0,255));
 draw = function() {
-    //house design
-    background(219, 255, 255);
-    drawRainbow(bigRainbow);
 
-
+background(219, 255, 255);
+drawRainbow(bigRainbow);
 
 fill(174, 180, 214);
 triangle(200, 28, 350, 150, 50, 150);
@@ -84,10 +82,6 @@ for (var q=60; q<345; q+=20){
     fill(247, 255, 0);
     ellipse(q, 200, 10, 10);
 }
-
-    //house design end
-    //rain design starts
-
 
     for (var i = 0; i < xPositions.length; i++) {
         noStroke();
