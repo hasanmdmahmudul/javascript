@@ -88,7 +88,7 @@ for (var q=60; q<345; q+=20){
         // random colour
         
         fill(colour);
-        ellipse(xPositions[i], yPositions[i], 10, 10);
+        ellipse(xPositions[i], yPositions[i], 5, 10);
         yPositions[i] += 5; // conrolling the speed of raindrop fall, use 10, 20
         
         if(yPositions[i] > 400){  // reset the y position bcz scope of screen in 400
