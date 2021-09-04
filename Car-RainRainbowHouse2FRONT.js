@@ -96,7 +96,7 @@ for (var i=250; i<300; i+=40){
     fill(77,66,66);
     ellipse(x+25,y+20,30,30);
     ellipse(x+75,y+20,30,30);
-    x=x+10;
+    x=x+1;
     
     //Car ends
  
