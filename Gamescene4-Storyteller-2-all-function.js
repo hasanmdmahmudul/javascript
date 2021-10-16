@@ -56,14 +56,14 @@ mouseClicked=function(){
         drawScene2();
     } 
     else if (currentScene === 2) {
-        drawScene2();
+        drawScene3();
     }
     else if (currentScene === 3) {
-        drawScene3();
+        drawScene4();
     }
     
     else if (currentScene === 4) {
-        drawScene4();
+        drawScene5();
     }    
         
     else if (currentScene === 5) {
