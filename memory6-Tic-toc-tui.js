@@ -1,6 +1,6 @@
 /*
 Tic Tac Toe (for two players)
-by Louis Pelissier
+this is the modification of the game by Louis Pelissier
 Have fun playing
 Click New Game to play!!! X always goes first!
 */
